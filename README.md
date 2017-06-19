@@ -16,15 +16,14 @@
 	添加 git add .
 	提交 git commit -m 'add somting'
 	
-> 远程仓库
-> git remote add byefn(name) git@github.com:bluenesscrab/byefn.git
-> 
-> 备注: byefn:远程仓库名字;
-
-	git remote add byefn git@github.com:bluenesscrab/byefn.git	
+ 	远程仓库 //备注: byefn:远程仓库名字;
+	git remote add byefn(name) git@github.com:bluenesscrab/byefn.git
 	
-	git push -u byefn master
+	git remote add origin git@github.com:bluenesscrab/byefn.git
 	
+	git push -u origin master
+	
+		
 	
 	
 
