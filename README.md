@@ -1,12 +1,20 @@
 # byefn  
 
-#### 技术
+### 技术
 
 	|-- git版本管理
 	|-- pm2 是一个带有负载均衡功能的Node应用的进程管理器.
 	
 
-## git管理
+### git管理
+
+> git add .
+> 
+> git status
+> 
+> git commit -m 'add somting'
+> 
+> git push origin master
 
 	初始化 本地仓库 git init 
 	
@@ -16,14 +24,26 @@
 	添加 git add .
 	提交 git commit -m 'add somting'
 	
+	touch .gitignore
+	// 创建过滤文件
+	
+	
  	远程仓库 //备注: byefn:远程仓库名字;
 	git remote add byefn(name) git@github.com:bluenesscrab/byefn.git
 	
 	git remote add origin git@github.com:bluenesscrab/byefn.git
 	
 	git push -u origin master
+	// 第一次提交需要加上 -u 以后就不用
+	git push origin master
 	
-		
+	
+## webpack + express
+	
+	npm init
+	npm install express --save
+	npm install webpack --save
+	
 	
 	
 
