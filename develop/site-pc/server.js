@@ -14,5 +14,5 @@ app.get('*', function(req, res){
   }
   fs.readFile('www/index.html', 'utf-8', readFileCallBack);
 }); 
-app.listen(1818);
+app.listen('1818');
 console.log('listen localhost:1818');
